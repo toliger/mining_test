@@ -11,3 +11,5 @@ RUN apt update
 RUN apt install -y ethminer
 
 ENTRYPOINT while true; do sleep 1000; done
+
+EXPOSE 80
