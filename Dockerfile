@@ -6,7 +6,7 @@ RUN apt-get update && apt-get upgrade -y
 
 RUN apt-get install -y apt-utils dialog software-properties-common
 
-RUN add-apt-repository ppa:ethereum/ethereum
+RUN add-apt-repository -y ppa:ethereum/ethereum
 
 RUN apt-get update
 
