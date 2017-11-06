@@ -10,6 +10,4 @@ RUN add-apt-repository -y ppa:ethereum/ethereum && apt-get update && apt-get upg
 
 RUN apt-get install -y ethminer
 
-ENTRYPOINT while true; do sleep 1000; done
-
 EXPOSE 80
