@@ -1,1 +1,3 @@
 # Mining 
+
+Ethereum mining
